@@ -1,0 +1,10 @@
+dataset,method,split,auc,acc,samples,source,checkpoint,variant,image_size
+PathMNIST,auto-sklearn,test,0.934000,0.716000,,pdf_table_ii,,,
+PathMNIST,AutoKeras,test,0.956000,0.834000,,pdf_table_ii,,,
+PathMNIST,Google AutoML,test,0.944000,0.728000,,pdf_table_ii,,,
+PathMNIST,MedViT-T(224),test,0.994000,0.938000,,pdf_table_ii,,,
+PathMNIST,MedViT-S(224),test,0.993000,0.942000,,pdf_table_ii,,,
+PathMNIST,MedViT-L(224),test,0.984000,0.933000,,pdf_table_ii,,,
+PathMNIST,PDF ours (96),test,0.985000,0.890000,,pdf_table_ii,,,
+PathMNIST,pathology-ssl-cvt13-64,val,0.998401,0.956717,10004,checkpoint_inference,checkpoints/classification/pathmnist_ssl/best.pt,cvt13,64
+PathMNIST,pathology-ssl-cvt13-64,test,0.977707,0.802228,7180,checkpoint_inference,checkpoints/classification/pathmnist_ssl/best.pt,cvt13,64

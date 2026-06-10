@@ -1,0 +1,3 @@
+backbone,dataset,split,loss,mean_iou,pixel_accuracy,samples,checkpoint
+medvit,pannuke,val,0.522027,0.426978,0.914394,1361,checkpoints/benchmark/segmentation/medvit/pannuke/best.pt
+medvit,pannuke,test,0.521293,0.411888,0.916961,1361,checkpoints/benchmark/segmentation/medvit/pannuke/best.pt

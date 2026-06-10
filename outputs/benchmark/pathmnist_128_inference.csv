@@ -1,0 +1,3 @@
+dataset,method,split,auc,acc,samples,source,checkpoint,variant,image_size
+PathMNIST,pathology-ssl-cvt13-64,val,0.998401,0.956717,10004,checkpoint_inference,checkpoints/classification/pathmnist_ssl/best.pt,cvt13,64
+PathMNIST,pathology-ssl-cvt13-64,test,0.977707,0.802228,7180,checkpoint_inference,checkpoints/classification/pathmnist_ssl/best.pt,cvt13,64
