@@ -1,0 +1,21 @@
+# Large local datasets
+data/
+
+# Training outputs
+checkpoints/
+logs/
+outputs/*
+!outputs/benchmark/
+!outputs/benchmark/*.csv
+runs/
+wandb/
+*.pth
+*.pt
+*.ckpt
+
+# Python / editor noise
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
