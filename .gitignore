@@ -1,21 +1,42 @@
-# Large local datasets
-data/
-
-# Training outputs
-checkpoints/
-logs/
-outputs/*
-!outputs/benchmark/
-!outputs/benchmark/*.csv
-runs/
-wandb/
-*.pth
-*.pt
-*.ckpt
-
-# Python / editor noise
+# Local Python environment
 .venv/
+venv/
+
+# Python cache and tooling
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .ipynb_checkpoints/
+
+# Local datasets and generated caches
+data/
+
+# Training artifacts
+checkpoints/
+logs/
+runs/
+wandb/
+
+# Keep checked benchmark summaries, ignore all other generated outputs.
+outputs/*
+!outputs/
+!outputs/benchmark/
+!outputs/benchmark/*.csv
+
+# Model weights and runtime logs
+*.pt
+*.pth
+*.ckpt
+*.log
+*.pid
+*.out
+*.err
+events.out.tfevents.*
+
+# OS / editor noise
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
